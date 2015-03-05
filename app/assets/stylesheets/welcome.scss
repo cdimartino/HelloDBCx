@@ -1,0 +1,22 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: black;
+}
+
+div.welcome {
+  font-size: 10em;
+  color: white;
+  font-family: 'Comic Sans MS';
+  text-align: center;
+}
+
+span {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

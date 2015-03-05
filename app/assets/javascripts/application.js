@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).on('ready', function() {
+  $('#welcome').fadeIn(1000, function(){
+    $('#to').fadeIn(1000, function(){
+      $('#dbcx').fadeIn(1000, function() {
+        $('#logo').fadeIn(1000);
+      });
+    });
+  });
+});
